@@ -255,6 +255,7 @@ hr{
         text-align: center;
     }
 }
+/* for laptop */
 @media only screen and (min-width:993px) and (max-width:1312px){
     .view-all-btn a{
         display: none;
