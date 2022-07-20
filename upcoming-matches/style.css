@@ -1,0 +1,144 @@
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+.banner-section{
+    background-color: #161616;
+    color:white;
+    width: 80%;
+    margin:auto;
+    border-radius:30px;
+    padding-bottom:30px;
+    margin-top:20px;
+    
+}
+
+
+.banner{
+    display: flex;
+    width:90%;
+    margin:auto;
+    justify-content: space-between;
+    align-items: center;
+    gap:60px;
+    
+}
+.banner-item p{
+    padding-bottom:20px;
+}
+.banner-item a{
+    text-decoration: none;
+    background-color: #DD0000;
+    padding:16px 25px;
+    color:white;
+    border-radius: 5px;
+}
+.arrow{
+    padding-left:10px;
+    align-items: center;
+}
+.banner-heading{
+    font-size: 70px;
+    
+}
+.match{
+    display: flex;
+    padding-top:100px;
+    width:80%;
+    margin:auto;
+    padding-bottom:50px;
+    
+}
+.h-nav{
+    display: flex;
+    flex-direction:column;
+    background-color: #161616;
+    width: 312px;
+    height: 250px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.nav-item{
+    height:30px;
+    width: 150px;
+    margin:auto;
+    background-color: #FFFFFF;
+    text-align: center;
+    border-radius:10px;
+    padding-top:5px;
+}
+.nav-item:hover{
+    background-color: red;
+}
+.h-nav a{
+    text-decoration: none;
+    color:black;
+    
+}
+.upcoming-match{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin:auto;
+    gap:80px;
+    padding-left:40px;
+}
+
+.matches{
+    
+    text-align: center;
+    
+
+}
+.flag{
+    display: flex;
+    padding-bottom:10px;
+}
+footer{
+    background-color: #161616;
+    height: 250px;
+    color:white;
+    padding-top:50px;
+}
+footer h2{
+    text-align: center;
+    padding-bottom:20px;
+}
+hr{
+    border:1px solid rgba(255, 255, 255, 0.1);
+    width:70%;
+    margin:auto;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    width:60%;
+    margin:auto;
+    padding-top:50px;
+}
+.social-media-icon{
+    
+}
+.icon{
+    
+    width:50%;
+    margin:auto;
+    padding:20px 50px;
+    text-align: center;
+}
+.icon a{
+    
+    padding-left:8px;
+    text-decoration: none;
+    color:white;
+    
+    
+    
+    
+}
