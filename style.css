@@ -114,6 +114,13 @@ banner section style start
     width:100%;
 
 }
+.blog-button{
+    background-color: red;
+    
+}
+.blog-button a{
+    color:white;
+}
 .blog-item a{
     color:black;
 }
@@ -206,12 +213,14 @@ hr{
     .blog-img{
         width:100%;
     }
+    
     .h-nav{
         background-color: white;
         
     }
     .nav-item{
         border:1px solid rgb(90, 88, 88);
+        
     }
     .view-all-btn a{
         display: none;
@@ -261,6 +270,7 @@ hr{
         display: none;
         
     }
+    
     
 
     
